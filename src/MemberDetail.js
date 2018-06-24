@@ -67,7 +67,7 @@ class MemberDetail extends Component {
                                             <b>Location: </b>{selectedMember.location}
                                         </Typography>
                                         <Typography component="p">
-                                            <b>Email: </b>{selectedMember.email}
+                                            <b>Email: </b>{selectedMember.email? selectedMember.email: "Not Available"}
                                         </Typography>
                                         <Typography component="p">
                                             <b>Creation Date: </b>{selectedMember.created_at}
